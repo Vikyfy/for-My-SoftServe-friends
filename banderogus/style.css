@@ -1,0 +1,272 @@
+html,
+body {
+    margin: 0 ;
+    height: 100%
+    font-family = 'Montserrat', sans-serif;
+}
+
+.main-page{
+ background: linear-gradient(270.23deg, #A5DEFF 1.34%, #FCFEFE 99.8%);   
+}
+
+.main-page-text-container {
+    background:  #ffffff;
+    border-radius: 60px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+
+.main-page-button{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 8px;
+    background:  #FFA800;
+    color:#ffffff;
+    border: none;
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-right: 24px;    
+    cursor: pointer;
+}
+
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+margin-top: 32px;
+margin-bottom: 60px;
+}
+
+
+.main-page-description{
+color:  #1B1D1F;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+margin-bottom: 60px;
+margin-top: 0;
+}
+
+
+.main-page-title{
+color:  #1B1D1F;
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: 72px;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+.main-page-text{
+color:  #1B1D1F;
+/* may */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-top: 24px;
+margin-bottom: 32px;
+}
+
+
+.gus-facts{
+    padding-top: 48px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.gus-facts-title {
+    color: #1B1D1F;
+    /* sabaccent */
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    margin-top: 124px;
+    margin-bottom: 0;
+    margin: auto;
+    text-align: center;
+
+}
+
+.trizub {
+
+    margin-bottom: 24px;
+}
+
+
+.gus-facts-description{
+    font-family: Montserrat;
+    width: 772px;
+    margin: auto;
+    margin-bottom: 24px;
+    color: #1B1D1F;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.gus-fact-item-1-title {
+    color:  #1B1D1F;
+text-align: center;
+/* header */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 100% */
+margin-bottom: 32px;
+margin-top: 0;
+
+}
+
+
+.gus-fact-item-1-descr {
+    color:  #1B1D1F;
+text-align: center;
+/* may */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+
+}
+
+.form-section {
+
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFE 100%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form-container {
+
+    background: #ffffff;
+    padding-top: 32px;
+    border-radius: 40px;
+    padding-left: 60 px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    width: 573px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form-title {
+
+    color: #1b1b1b;
+/* header */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+margin-top: 32px;
+margin-bottom: 12px;
+text-align: center;
+}
+.form-descr{
+    color: #000;
+
+/* may */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-bottom: 24px;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+
+}
+
+.form-field-label{
+    color: #1b1b1b;
+/* main_body */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-bottom: 8px;
+margin-left: 60px;
+
+}
+
+
+
+.form-field-input{
+    height: 60px;
+    width: 453px;
+    border-radius: 8px;
+border: 1px solid  #005BBB;
+margin-right: 60px;
+margin-left: 60px;
+padding-left: 8px;
+padding-right: 8px ;
+}
+
+.form-btn {
+
+    border-radius: 8px;
+background:  #FFA800;
+color:  #FFF;
+/* may */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+border: none;
+outline: none;
+padding-left: 24px;
+padding-top: 12px;
+padding-bottom: 12px;
+cursor: pointer;
+}
+
+
+
+.form-field-email {
+
+    margin-bottom: 48px;
+}
+
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
